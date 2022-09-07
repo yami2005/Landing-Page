@@ -1,8 +1,9 @@
 body{
     height: 100vh;
     background-color: #1f2937;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 300px;
+    padding-right: 300px;
+    margin: 0;
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
@@ -25,4 +26,42 @@ a{
     font-size: 18px;
     color: #e5e7eb;
     padding: 10px;
+}
+
+.hero_container{
+    display: flex;
+    font-size: 18px;
+    color: #e5e7eb;
+    justify-content: space-between;
+    margin-top: 50px;
+    
+}
+
+.hero_title{
+    margin-top: auto;
+    margin-bottom: 0;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero_description{
+    flex-wrap: wrap;
+    width: 500px;
+    margin-top: 0;
+}
+
+.logo{
+    display: flex;
+    width: 500px;
+    border-radius: 30px;
+    height: auto;
+}
+
+.button{
+    background-color: #3882f6;
+    padding: 8px 30px;
+    border-radius: 30px 10%;
+    color: white;
+    font-weight: bold;
 }
