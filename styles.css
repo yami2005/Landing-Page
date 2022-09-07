@@ -1,8 +1,6 @@
 body{
     height: 100vh;
     background-color: #1f2937;
-    padding-left: 300px;
-    padding-right: 300px;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -13,6 +11,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .logo_text{
@@ -34,6 +34,9 @@ a{
     color: #e5e7eb;
     justify-content: space-between;
     margin-top: 50px;
+    padding: 50px 0px;
+    padding-left: 200px;
+    padding-right: 200px;
     
 }
 
@@ -64,4 +67,49 @@ a{
     border-radius: 30px 10%;
     color: white;
     font-weight: bold;
+}
+
+.information_container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
+
+.cats_container{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+   
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    border-color: orange;
+    border-style: solid;
+}
+
+.cats{
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+    flex: auto;
+}
+
+h1{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 30px 0px;
+}
+
+.info_text{
+    text-align: center;
+    padding-top: 5px;
 }
